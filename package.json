@@ -1,0 +1,17 @@
+{
+  "name": "dom-scraper-cli",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A small CLI for scraping matching elements from an HTML document.",
+  "main": "script.js",
+  "bin": {
+    "dom-scraper": "script.js"
+  },
+  "scripts": {
+    "scrape": "node script.js"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "jsdom": "^26.1.0"
+  }
+}
